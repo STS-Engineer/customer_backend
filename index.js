@@ -8,7 +8,7 @@ const customerrouter = require('./services/customer');
 
 const app = express();
 
-
+   
 // ✅ CORS config FIRST
 app.use(cors({
   origin: ['https://customer-management-c6fycxagd8aeh6h3.francecentral-01.azurewebsites.net'], // add your frontend origin
